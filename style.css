@@ -163,9 +163,7 @@ font-size: 1rem;
         padding-top: 1.875rem;
         padding-bottom: 5.875rem;
     }
-    .left-cta h1 {
-        
-    }
+
 }
 /*------ marketing section -----*/
 
@@ -177,21 +175,70 @@ font-size: 1rem;
     text-align: center;
     align-content: center;
     justify-content: center;
+    margin-bottom: 4rem;
+    
 }
 .marketing h2 {
     color: #cad4fa;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    font-size: 36px;
+    padding-top: 3.125rem;
+    padding-bottom: 0.625rem;
+    font-size: 2rem;
     
 }
 
 .marketing p {
-    font-size:  26px;
+    font-size:  1.6rem;
     color: #cad4fa;
 }
 
-  /*p{
-    margin-top: 100px;
+/* students section */
+.studentsC {
+    /*max-width: 1250px;*/
+    /*width: 80%;*/
+   /* margin: 0 auto;
+    justify-content: space-between;
+    align-content: center;*/
+    text-align: center;
+    top: 3rem;
+    
 }
-*/
+
+.allstudents {
+    
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.allstudent {
+min-width: 300px;
+height: auto;
+
+}
+
+.allstudent img {
+    width: 320px;
+    
+}
+
+.studentsC h1 {
+    color: #133B4F;
+    font-size: 2rem;
+    
+}
+
+.allstudent p {
+    width: 300px;
+    font-size: 1rem;
+    text-align: left;
+    color: #333;
+    font-weight: 400;
+}
+@media only screen and (max-width: 768px), (max-width: 360px) {
+
+    .allstudents {
+        flex-direction: column;
+    }
+}
