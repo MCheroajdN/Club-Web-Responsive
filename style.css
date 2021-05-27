@@ -72,9 +72,9 @@ font-size: 1rem;
 
 .main-content {
     display: flex;
-    height: 600px;
+    height: 900px;
     position: relative;
-    top: 5.3125rem; /* To offset for fixed header. */
+    top: 5rem; /* To offset for fixed header. */
     align-items: center;
     justify-content: center;
   }
@@ -83,8 +83,9 @@ font-size: 1rem;
 .left-ctaimg img {
     height: 400px;
     max-width: 100%;
-    border-radius: 5px;
-    /*margin: 0 0 0 15px;*/
+    border-radius: 10px;
+    
+     /*margin: 0 0 0 15px;*/
 }
 
 .left-cta {
@@ -143,6 +144,53 @@ font-size: 1rem;
     color:#133B4F ;
     font-size: 1.25rem;
 }
+
+
+/*@media only screen and (min-width: 360px), (max-width: 600) {*/
+    @media only screen and (max-width: 768px), (max-width: 360px) {
+    .main-content {
+        flex-direction: column;
+        
+    }
+
+    .left-cta {
+        width: 90%;
+        text-align: center;
+        
+    }
+
+    .left-ctaimg img{
+        padding-top: 1.875rem;
+        padding-bottom: 5.875rem;
+    }
+    .left-cta h1 {
+        
+    }
+}
+/*------ marketing section -----*/
+
+.marketing {
+    /*margin: 0 auto;*/
+    height: 300px;
+    background-color: #133B4F;
+    /*#26223D;*/
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.marketing h2 {
+    color: #cad4fa;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 36px;
+    
+}
+
+.marketing p {
+    font-size:  26px;
+    color: #cad4fa;
+}
+
   /*p{
     margin-top: 100px;
 }
